@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) and (min-width:550px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    menu{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 549px){
+    nav{
+        padding: 0px 20px;
+    }
+    menu{
+        display: flex;
+        flex-direction: column;
+    }
+    menu li{
+        margin-bottom: 10px;
+    }
+    body header .mainText h1{
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    body header .mainText p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .recive{
+        padding: 30px 20px;
+    }
+    .recive h1{
+        font-size: 26px;
+    }
+    .recive p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icons div{
+        max-width: 350px;
+    }
+    .icons div p{
+        margin-bottom: 20px;
+    }
+}

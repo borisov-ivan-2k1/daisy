@@ -1,0 +1,143 @@
+body{
+    // тело сайта
+    margin: 0 auto;
+    max-width: 1260px;
+    header{
+        background: url(../images/background.png) no-repeat;
+        display: flex;
+        flex-direction: column;
+        min-height: 600px;
+        width: 100%;
+        justify-content: space-around;
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            a{
+                color: #fff;
+                font-size: 25px;
+                font-weight: bold;
+                text-decoration: none;
+                img{
+                    padding-right: 15px;
+                    vertical-align: center;
+                }
+            }
+            .logo:hover img{
+                opacity: .7;
+            }
+            menu{
+                list-style: none;
+                text-transform: uppercase;
+                display: flex;
+                li{
+                    padding-left: 15px;
+                    a{
+                        color: #fff;
+                        font-size: 20px;
+                        text-decoration: none;
+                        &:hover{
+                            color: #fc635e;
+                            border-bottom: 3px solid #fc635e;
+                            padding-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .mainText{
+            text-align: center;
+            h1{
+                text-transform: uppercase;
+                font-size: 50px;
+                color: #fff;
+                span{
+                    color: #fc635e;
+                }
+            }
+            p{
+                color: #fff;
+                font-size: 22px;
+            } 
+            a{
+                color: #fc635e;
+                text-decoration: none;
+                font-size: 25px;
+                border:  2px solid #fc635e;
+                padding: 12px 28px;
+                border-radius: 8px;
+                &:hover{
+                    background: #fc635e;
+                    color: #fff;
+                }
+            }
+        }
+        .botHeader{
+            display: flex;
+            justify-content: center;
+            a{
+                font-size: 30px;
+                text-decoration: none;
+                color: #fff;
+                border-radius: 50%;
+                background: #fc635e;
+                display: flex;
+                width: 45px;
+                height: 45px;
+                justify-content: center;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+        }
+    }
+    .recive{
+        margin-top: 0;
+        text-align: center;
+        background: #fff;
+        padding: 70px 50px 10px 50px;
+        color: #868686;
+        p{
+            font-size: 22px;
+            margin-bottom: 50px;
+        }
+        h1{
+            text-decoration: underline;
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 40px;
+            span{
+                color: #fc635e;
+            }
+        }
+        a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #fc635e;
+            border: 1px solid #fc635e;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            &:hover{
+                background: #fc635e;
+                color: #fff;
+            }
+        }
+    }
+    .icons{
+        display: flex;
+        h3{
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 18px;
+        }
+        div{
+            padding: 15px;
+        }
+    }
+}
