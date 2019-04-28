@@ -6,6 +6,18 @@
     menu{
         padding: 0;
     }
+
+    body .expand {
+        padding: 30px 30px 10px 30px;
+    }
+    body .expand .mainText {
+        padding: 50px 0;
+        margin-bottom: 20px;
+    }
+    body .expand .mainText h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 549px){
@@ -26,6 +38,33 @@
     body header .mainText p{
         font-size: 18px;
         padding-bottom: 20px;
+    }
+
+    body .expand {
+        padding: 10px;
+    }
+    body .expand .mainText {
+        border: none;
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+    body .expand .mainText h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+      
+    body .our_process .steps {
+        display: block;
+    }
+    body .our_process .steps h1{
+        font-size: 24px;
+    }
+    body .our_process .back_process {
+        display: none;
+    }
+    body .our_team .wrap{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -48,6 +87,55 @@
         max-width: 350px;
     }
     .icons div p{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wedo1,
+    .wedo2,
+    .wedo3{
+        padding: 5px;
+        text-align: center;
+    }
+    .wedo2 .left{
+        text-align: center !important;
+    }
+
+    .wedo1 .container,
+    .wedo2 .container,
+    .wedo3 .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wedo1 .container img,
+    .wedo2 .container img,
+    .wedo3 .container img{
+        width: 100%;
+    }
+    .wedo1 .container .right,
+    .wedo2 .container .right,
+    .wedo3 .container .right{
+        order: 1;
+        max-width: 100%;
+    }
+    .wedo1 .container .left,
+    .wedo2 .container .left,
+    .wedo3 .container .left{
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .wedo1 .container .left h2,
+    .wedo2 .container .left h2,
+    .wedo3 .container .left h2{
+        border: 0;
+        padding: 0;
+    }
+    .wedo1 .container .btn,
+    .wedo2 .container .btn,
+    .wedo3 .container .btn{
         margin-bottom: 20px;
     }
 }
